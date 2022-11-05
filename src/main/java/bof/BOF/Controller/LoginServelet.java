@@ -28,7 +28,7 @@ public class LoginServelet extends HttpServlet
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
 	{
-		this.getServletContext().getRequestDispatcher("/Connexion.jsp")
+		this.getServletContext().getRequestDispatcher("/static/html/Connexion.jsp")
 								.forward(request, response);
 	
 	}

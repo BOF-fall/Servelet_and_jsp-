@@ -4,8 +4,10 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="${pageContext.request.contextPath}/styles/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/static/styles/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="${pageContext.request.contextPath}/static/styles/css/signin.css" rel="stylesheet">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -59,15 +61,13 @@
       }
     </style>
 
-    
-    <!-- Custom styles for this template -->
-    <link href="${pageContext.request.contextPath}/styles/css/signin.css" rel="stylesheet">
+
   </head>
   <body class="text-center">
     
 <main class="form-signin w-100 m-auto">
   <form method="post" action="<%= request.getContextPath()%>/main/webapp/src/Controller/LoginServelet">
-    <img class="mb-4" src="${pageContext.request.contextPath}/images/logo.png" alt="" width="72" height="57">
+    <img class="mb-4" src="${pageContext.request.contextPath}/static/images/drapeau.png" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Connectez-vous</h1>
 
     <div class="col-12">

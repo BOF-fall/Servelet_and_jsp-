@@ -68,13 +68,13 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="form-validation.css" rel="stylesheet">
+    <link href="../java/bof/BOF/form-validation.css" rel="stylesheet">
   </head>
   <body class="bg-light">
     
 <div class="container">
     <div class="py-5 text-center">
-      <img class="d-block mx-auto mb-4" src="drapeau.png" alt="" width="90" height="60">
+      <img class="d-block mx-auto mb-4" src="../java/bof/BOF/drapeau.png" alt="" width="90" height="60">
       <h2>Direction Generale des Elections</h2>
       <p class="lead">Election presidentielle senegalaise de 2019</p>
     </div>
@@ -208,6 +208,6 @@
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-      <script src="form-validation.js"></script>
+      <script src="../java/bof/BOF/form-validation.js"></script>
   </body>
 </html>
